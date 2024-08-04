@@ -1,0 +1,10 @@
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+
+
+# Miscellaneous
+/target/
+/logs/
+.idea
