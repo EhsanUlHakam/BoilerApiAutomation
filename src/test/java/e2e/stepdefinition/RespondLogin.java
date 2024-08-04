@@ -13,10 +13,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class RespondLogin {
-    final String accessToken = "accessToken";
     static Properties myISConfigProp;
     public static String BASE_URI = setConfig().getProperty("baseURI");
     public static String LOGIN_ENDPOINT = setConfig().getProperty("endpointLogin");
+    final String accessToken = "accessToken";
     BaseClass baseClass = new BaseClass();
     SoftAssert softAssert = new SoftAssert();
     Assertion hardAssert = new Assertion();

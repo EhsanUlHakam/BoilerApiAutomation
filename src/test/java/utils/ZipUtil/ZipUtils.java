@@ -15,8 +15,7 @@ import java.util.zip.ZipOutputStream;
 public class ZipUtils {
 
     private static final String OUTPUT_ZIP_FILE = "target.zip";
-    private static final String SOURCE_FOLDER =
-            "C:\\automation\\serenity-apiautomation\\target"; // SourceFolder path
+    private static final String SOURCE_FOLDER = "C:\\automation\\serenity-apiautomation\\target"; // SourceFolder path
     public static Logger log = LogManager.getLogger(ZipUtils.class.getName());
     private List<String> fileList;
 

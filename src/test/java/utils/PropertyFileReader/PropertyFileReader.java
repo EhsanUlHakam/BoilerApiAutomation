@@ -46,7 +46,7 @@ public class PropertyFileReader {
         try {
             BufferedReader buf = new BufferedReader(new FileReader(Path));
             while ((line = buf.readLine()) != null) {
-                String parts[] = line.split("\t");
+                String[] parts = line.split("\t");
                 map.put(parts[0], parts[1]);
             }
 

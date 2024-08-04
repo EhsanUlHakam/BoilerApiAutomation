@@ -1,7 +1,7 @@
 package e2e.model;
 
 public class RespondLoginModel {
-//    https://app.respond.io/auth/login
+    //    https://app.respond.io/auth/login
 
     private String email;
     private String password;

@@ -4,5 +4,5 @@ Feature: Add User to Workspace
     When I hit the post request to add user to workspace using <email>
 
     Examples:
-      | email     |
+      | email            |
       | "test@email.com" |
